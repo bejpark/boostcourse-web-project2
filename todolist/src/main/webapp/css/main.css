@@ -1,0 +1,44 @@
+html {
+    position: relative;
+}
+
+.msg {
+    margin-top: 50px;
+    display: inline-block;
+    transform: rotate(-30deg);
+    color: #466ba1;
+}
+
+.add_list {
+    position: absolute;
+    top: 3em;
+    right: 3em;
+    padding: 15px 30px;
+    display: inline-block;
+    background-color: rgb(114, 187, 221);
+}
+
+.main_wrap {
+    margin: 50px 50px 100px 100px;
+    position: absolute;
+    right: 0;
+}
+
+.list {
+    float: left;
+    background-color: rgb(52, 84, 97);
+    width: 280px;
+    height: 36px;
+    color: white;
+    padding-top: 13px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+@media screen and (max-width:900px) {
+    .list {
+        width: 200px;
+    }
+}

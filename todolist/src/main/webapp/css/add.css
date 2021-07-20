@@ -1,0 +1,41 @@
+.wrap {
+    position: relative;
+    left: 30%;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #666;
+}
+
+.header {
+    text-align: center;
+}
+
+.input {
+    margin: 10px 0 20px;
+    height: 30px;
+    border: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+#second,
+#third {
+    margin-left: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn * {
+    padding: 10px 20px;
+    border: 0;
+}
+
+.btn .back_btn {
+    margin-right: 20%;
+}
+
+.btn .back_btn~* {
+    background-color: rgb(97, 164, 219);
+    color: #fff;
+}
