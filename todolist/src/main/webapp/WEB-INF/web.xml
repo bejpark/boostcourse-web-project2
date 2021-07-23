@@ -4,4 +4,9 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  <servlet-name>mysqlDriverLoader</servlet-name>
+  <servlet-class>dbConnect.MySQLDriverLoader</servlet-class>
+  <load-on-startup>1</load-on-startup>
+  </servlet>
 </web-app>

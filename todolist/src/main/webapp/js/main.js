@@ -21,6 +21,6 @@ function status(id, node){
 		 if(this.responseText === "success")
 			 change(type,node);
 	 });    
-	 httpRequest.open("GET", "http://www.example.org/getData?data=data");//must change 
+	 httpRequest.open("GET", "./TodoTypeServlet?id=" + id + "&type="+type);
 	 httpRequest.send();
 }
